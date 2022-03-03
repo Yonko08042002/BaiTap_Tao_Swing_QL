@@ -469,8 +469,14 @@ public class JFrameQuanLy extends javax.swing.JFrame {
             QuanLy ql =dao.getQuanLyByMaTaiLieu(Integer.parseInt(txtMaTaiLieu.getText()));
             setModel(ql);
         }
-    }//GEN-LAST:event_btnSeachActionPerformed
-
+    }
+     private void btnExitActionPerformed(java.awt.event.ActionEvent evt) {                                        
+       
+        // TODO add your handling code here:
+        this.setVisible(false);
+    }   
+    //GEN-LAST:event_btnSeachActionPerformed
+    
     /**
      * @param args the command line arguments
      */
